@@ -1,39 +1,54 @@
+# 📅 Swift Date Explained — SwiftUI
 
-# 🚀 Getting Started
+A SwiftUI reference app breaking down how Swift's `Date`, `DateFormatter`, `DateComponents`, and `Calendar` APIs work — with live examples all in one place.
 
-## 1. Clone the Repo
+---
+
+## 🤔 What this is
+
+SwiftDateExplained is a practical cheat sheet app for working with dates in Swift. It demonstrates how to format dates for display, parse strings into `Date` objects, extract year/month/day components, and perform date arithmetic — all the operations that trip up Swift developers the first time they touch the date APIs.
+
+## ✅ Why you'd use it
+
+- **`DateFormatter`** — format `Date` to strings and parse strings back to `Date` with locale awareness
+- **`DateComponents`** — extract year, month, day, hour, and minute from any `Date`
+- **`Calendar`** — add/subtract time intervals and compare dates correctly
+- **Live SwiftUI output** — see the result of every date operation rendered directly in the app
+- **Quick reference** — all the common date patterns in one focused codebase
+
+## 📺 Watch on YouTube
+
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/JAyrYsbBkTU)
+
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97).
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 ```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/NDCSwift/SwiftDateExplained.git
+cd SwiftDateExplained
 ```
-Or select “Clone Git Repository…” when Xcode launches.
 
-⸻
+### 2. Open in Xcode
+Double-click `DateExplained.xcodeproj`.
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
-
-⸻
-
-## 3. Set Your Development Team
-
-In Xcode, navigate to:
-
+### 3. Set Your Development Team
 TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
 
-⸻
+### 4. Update the Bundle Identifier
+Change `com.example.MyApp` to a unique identifier.
 
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
+---
 
-⸻
+## 🛠️ Notes
+- No external dependencies — pure Swift Foundation date APIs.
+- Runs in the iOS Simulator for quick testing.
 
-🛠️ Notes
+## 📦 Requirements
+- Xcode 16+
+- iOS 17+
 
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://youtu.be/JAyrYsbBkTU)
+📺 [Watch the guide on YouTube](https://youtu.be/JAyrYsbBkTU)
